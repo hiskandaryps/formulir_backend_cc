@@ -17,9 +17,4 @@ git clone https://github.com/hiskandaryps/formulir_backend_cc
 ```bash
 npm install
 ``` 
-- Provide the required data for the `.env` file, that consist of :
-| .env Variables |
-| --- |
-| SUPABASE_URL |
-| SUPABASE_KEY |
-| PORT |
+- Provide the required data for the `.env` file, that consist of : `SUPABASE_URL`, `SUPABASE_KEY`, `PORT`
