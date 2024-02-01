@@ -18,3 +18,7 @@ git clone https://github.com/hiskandaryps/formulir_backend_cc
 npm install
 ``` 
 - Provide the required data for the `.env` file, that consist of : `SUPABASE_URL`, `SUPABASE_KEY`, `PORT`
+- Run the back-end application
+```bash
+npm run start
+``` 
