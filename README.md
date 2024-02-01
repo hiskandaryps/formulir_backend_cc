@@ -22,3 +22,103 @@ npm install
 ```bash
 npm run start
 ``` 
+## APIs Documentation
+<details>
+<summary>getAllData</summary>
+Request:
+
+- Method: `GET`
+- Endpoint: `/formulir`
+- Body: `none`
+
+Response:
+```json
+{
+    "status": 200,
+    "data": [],
+    "message": "Data fetched successfully"
+}
+```
+</details>
+<details>
+<summary>getDataById</summary>
+Request:
+
+- Method: `GET`
+- Endpoint: `/formulir/:student_id`
+- Body: `none`
+
+Response:
+```json
+{
+    "status": 200,
+    "data": [],
+    "message": "Data fetched successfully"
+}
+```
+</details>
+<details>
+<summary>postData</summary>
+Request:
+
+- Method: `POST`
+- Endpoint: `/formulir`
+- Body:
+```json
+{
+    "name": "your name in varchar",
+    "student_id": "your student id in varchar",
+    "student_class": "your class in varchar"
+}
+```
+
+Response:
+```json
+{
+    "status": 201,
+    "data": [],
+    "message": "Student data inserted successfully"
+}
+```
+</details>
+<details>
+<summary>putDataById</summary>
+Request:
+
+- Method: `PUT`
+- Endpoint: `/formulir/:student_id`
+- Body:
+```json
+{
+    "name": "your new name in varchar",
+    "student_id": "your new student id in varchar",
+    "student_class": "your new class in varchar"
+}
+```
+
+Response:
+```json
+{
+    "status": 201,
+    "data": [],
+    "message": "Student data updated successfully"
+}
+```
+</details>
+<details>
+<summary>deleteDataById</summary>
+Request:
+
+- Method: `DELETE`
+- Endpoint: `/formulir/:student_id`
+- Body: `none`
+
+Response:
+```json
+{
+    "status": 201,
+    "data": [],
+    "message": "Student data deleted successfully"
+}
+```
+</details>
