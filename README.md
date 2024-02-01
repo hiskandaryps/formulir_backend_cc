@@ -1,5 +1,5 @@
 # Simple Formulir Back-end App!
-This repository is intended for the `BootCamp CC#1 GDSC Telkom University` 
+This repository is intended as a resource for the `BootCamp CC#1 GDSC Telkom University` 
 > GDSC Telkom University Core Team
 
 ## General
